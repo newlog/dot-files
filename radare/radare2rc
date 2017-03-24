@@ -1,0 +1,67 @@
+##
+# ASM
+####
+
+# Show comments at right of disassembly if they fit in screen
+e asm.cmtright=true
+
+# Shows pseudocode in disassembly. Eg mov eax, str.ok = > eax = str.ok
+##e asm.pseudo = true
+
+# Show opcode description
+##e asm.describe = true 
+
+# Show separator lines after ret
+e asm.lines.ret = true 
+
+# Replace numeric values by flags (e.g. 0x4003e0 -> sym.imp.printf)
+##e asm.filter = true
+
+
+##
+# SCR
+####
+
+# Enable color
+e scr.color = true
+
+# Manage color palette (0: ansi 16, 1: 256, 2: 16M)
+e scr.truecolor = 2
+
+# Use UTF-8 to show cool arrows that do not look like crap :)
+e scr.utf8=true
+
+# Enable colors when using pipes
+e scr.pipecolor = true
+
+##
+# GRAPH
+####
+
+# Enables shortcuts for every node.
+e graph.nodejmps = true
+##e graph.font = Meslo LG S DZ
+
+# Show offsets in graphs
+e graph.offset = true
+
+# Graph references in callgraphs (.agc*;aggi)
+e graph.refs = true
+
+##
+# MISC
+####
+
+
+# Editor
+e cfg.editor = vim
+
+# Load strings from rbin on startup
+e bin.strings = true
+
+# Display stack and register values on top of disasembly view (visual mode)
+e cmd.stack = true
+
+# Theme (available themes: /usr/share/radare2/0.10.6/cons/)
+eco xvilka
+

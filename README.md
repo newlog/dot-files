@@ -9,5 +9,5 @@ of configuring again and again.
 + `vim-python`: A fully vim configuration to implement a Python IDE. Plugins: python-mode, jedi-vim, ctrl-p, vim-powerline.
 + `tmux`: Tmux configuration file. Some handy shortcuts, such as using - and | to split into panes.
 + `powershell`: PowerShell configuration file. Something similar to the bashrc prompt format. The WindowsPowerShell folder must be palced in the user's Documents directory. Then you should execute as Administrator the following command: `set-executionpolicy unrestricted` 
-
++  radare : Configuration file for radare2
 
